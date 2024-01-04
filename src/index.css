@@ -1,0 +1,114 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  /* font-weight: 500; */
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.home-container{
+  margin-top: 20vh;
+}
+
+.introduction-container{
+  display: block;
+  max-width: 35vw;
+}
+
+.blurb-container{
+  margin-top: 2rem;
+}
+
+.section-header-container{
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.section-header-container::after{
+  content: " ";
+  border: 4px solid #747fe0;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 50px;
+}
+
+.portfolio-container{
+  text-align: center;
+}
+
+.portfolio-container *{
+  padding-top: 1rem;
+}
+
+.contact-container p{
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer-container{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.icons-container{
+  display: inline;
+}
+
+.languagesIcon{
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.scrollspy-nav{
+  position: sticky;
+}
+
+.custom-nav-style{
+  width: 100%;
+  align-self: start;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
