@@ -1,0 +1,36 @@
+.introductionContainer{
+    display: block;
+    max-width: 35vw;
+}
+
+.iconsContainer{
+  display: inline;
+}
+
+.languagesIcon{
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.typewriterText{
+  font-size: 4em;
+  font-family: 'Quicksand';
+  color: #747fe0;
+}
+@media only screen and (max-width: 480px) {
+    .languagesIcon{
+      font-size: 8vw;
+      padding-right: 10px;
+    }
+
+    .introductionContainer {
+      display: block;
+      max-width: 100%;
+    }
+    #mobileIconBreak{
+      display: block;
+    }
+    .typewriterText{
+      font-size: 2.3em;
+    }
+  }

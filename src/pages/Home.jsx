@@ -9,10 +9,10 @@ export default function Home() {
         <div data-bs-theme="dark" id = "home" className = "home-container">
             <Container>
                 <Row>
-                    <Col>
+                    <Col className="home-col">
                         <Introduction/>
                     </Col>
-                    <Col>
+                    <Col className="home-col">
                         <HomeGraphic/>
                     </Col>
                 </Row>
