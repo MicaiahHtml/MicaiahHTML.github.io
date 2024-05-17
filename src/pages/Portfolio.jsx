@@ -4,6 +4,7 @@ import PortfolioItem from "../components/PortfolioItem";
 import i1 from "../assets/images/iQuHack.webp";
 import i2 from "../assets/images/MAPAST2.jpg"
 import i3 from "../assets/images/cpphut.png";
+import i4 from "../assets/images/landon.png";
 
 export default function Portfolio() {
     const portfolioItemObjects = [
@@ -11,6 +12,11 @@ export default function Portfolio() {
         title: "MIT + iQuHack 2021 Quantum Hackathon Project",
         link: "https://github.com/MicaiahHtml/2021_Qeystone",
         img: i1
+      },
+      {
+        title: "Landon Hotel - A Multithreaded Spring Boot App*",
+        link: "https://github.com/MicaiahHtml/WGU2024_D387_LandonHotel",
+        img: i4
       },
       {
         title: "MAPAST - Global News In One Place",

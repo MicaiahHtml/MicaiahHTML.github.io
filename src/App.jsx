@@ -21,6 +21,7 @@ function App() {
       </ScrollspyNav>
       <Home/>
       <Portfolio/>
+      <p style={{textAlign: "center"}}>*repository is private, contact for access</p>
       <Contact />
       <Footer/>
     </div>  
